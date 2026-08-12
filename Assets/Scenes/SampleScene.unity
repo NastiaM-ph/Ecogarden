@@ -777,7 +777,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &477121024
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1972,6 +1972,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1434194908}
   - component: {fileID: 1434194907}
+  - component: {fileID: 1434194911}
+  - component: {fileID: 1434194910}
+  - component: {fileID: 1434194909}
   m_Layer: 0
   m_Name: Character_0
   m_TagString: Untagged
@@ -2047,11 +2050,66 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.09, y: -2.32, z: 0}
-  m_LocalScale: {x: -0.1313881, y: 0.13138811, z: 0.13138811}
+  m_LocalScale: {x: 0.1313881, y: 0.13138811, z: 0.13138811}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1434194909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434194906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e71a18cc2cd4fa49e7f1d17ea5f558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureWander
+  moveSpeed: 0.57
+  wanderRadius: 0.64
+  minIdleTime: 1
+  maxIdleTime: 3
+  animator: {fileID: 0}
+--- !u!114 &1434194910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434194906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08325dc3717b43219919f143e55ba25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickableCreature
+  energyPerClick: 1
+  clickBurst: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!136 &1434194911
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434194906}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4.42
+  m_Height: 11.98
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1468600218
 GameObject:
   m_ObjectHideFlags: 0
@@ -3325,6 +3383,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2035881367}
   - component: {fileID: 2035881366}
+  - component: {fileID: 2035881370}
+  - component: {fileID: 2035881369}
+  - component: {fileID: 2035881368}
   m_Layer: 0
   m_Name: Character_1
   m_TagString: Untagged
@@ -3399,12 +3460,67 @@ Transform:
   m_GameObject: {fileID: 2035881365}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.56, y: 0.16, z: 0}
+  m_LocalPosition: {x: -0.63, y: 0.76, z: 0}
   m_LocalScale: {x: 0.12496, y: 0.12496, z: 0.12496}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2035881368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035881365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e71a18cc2cd4fa49e7f1d17ea5f558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreatureWander
+  moveSpeed: 2.06
+  wanderRadius: 2
+  minIdleTime: 1
+  maxIdleTime: 3
+  animator: {fileID: 0}
+--- !u!114 &2035881369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035881365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e08325dc3717b43219919f143e55ba25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClickableCreature
+  energyPerClick: 1
+  clickBurst: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!136 &2035881370
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035881365}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 5.4999995
+  m_Height: 11.759999
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2072273544
 GameObject:
   m_ObjectHideFlags: 0
