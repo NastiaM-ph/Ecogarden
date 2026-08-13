@@ -41,5 +41,14 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 3441476501
+    locked: 0
+  - name: Buildings
+    uniqueID: 3200833549
+    locked: 0
+  - name: Villagers
+    uniqueID: 1316911553
+    locked: 0
   m_RenderingLayers:
   - Default
