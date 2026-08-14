@@ -16,6 +16,7 @@ MonoBehaviour:
   itemName: Mud House
   description: Cozy earthen shelter for new villagers.
   itemType: 2
+  itemIcon: {fileID: 21300000, guid: 7d6e0f5669ba921499d59e0f6757956f, type: 3}
   baseCost: 30
   costMultiplier: 1.15
   energyPerSecondBonus: 0

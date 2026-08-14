@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 1ad8961387a8eb643a38ab6114103ff7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1041732707596552686
+    second: AudioSettings_0
+  - first:
+      213: -8619250107801614765
+    second: AudioSettings_1
+  - first:
+      213: 309395092129061646
+    second: AudioSettings_2
+  - first:
+      213: -5436103415129337081
+    second: AudioSettings_3
+  - first:
+      213: -1641363037482677303
+    second: AudioSettings_4
+  - first:
+      213: -3977849979867258167
+    second: AudioSettings_5
+  - first:
+      213: 7005914128443873812
+    second: AudioSettings_6
+  - first:
+      213: 4092236612342041066
+    second: AudioSettings_7
+  - first:
+      213: -2740079076018430113
+    second: AudioSettings_8
+  - first:
+      213: -2734467516356014143
+    second: AudioSettings_9
+  - first:
+      213: -7851563282501528158
+    second: AudioSettings_10
+  - first:
+      213: 8562461584369536496
+    second: AudioSettings_11
+  - first:
+      213: -8479390367258615493
+    second: AudioSettings_12
+  - first:
+      213: 5581662647505347249
+    second: AudioSettings_13
+  - first:
+      213: -5104935670012713375
+    second: AudioSettings_14
+  - first:
+      213: 375987280106078283
+    second: AudioSettings_15
+  - first:
+      213: -5617907566825067414
+    second: AudioSettings_16
+  - first:
+      213: -8410520862924992854
+    second: AudioSettings_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Music
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 541
+        width: 617
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9c233d06af47e00800000000000000
+      internalID: 1041732707596552686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sfx
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 540
+        width: 737
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7039de2eeb41f84b0800000000000000
+      internalID: -5436103415129337081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: On
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 170
+        width: 709
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fd071199849f9d0800000000000000
+      internalID: -2740079076018430113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Off
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 171
+        width: 697
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40c9ce6076c73500800000000000000
+      internalID: 375987280106078283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AudioSettings_17
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 65
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae085506d3d74b80800000000000000
+      internalID: -8410520862924992854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0137ae6000391c74d9698238c95525c2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AudioSettings_1: -8619250107801614765
+      AudioSettings_10: -7851563282501528158
+      AudioSettings_11: 8562461584369536496
+      AudioSettings_12: -8479390367258615493
+      AudioSettings_13: 5581662647505347249
+      AudioSettings_14: -5104935670012713375
+      AudioSettings_16: -5617907566825067414
+      AudioSettings_17: -8410520862924992854
+      AudioSettings_2: 309395092129061646
+      AudioSettings_4: -1641363037482677303
+      AudioSettings_5: -3977849979867258167
+      AudioSettings_6: 7005914128443873812
+      AudioSettings_7: 4092236612342041066
+      AudioSettings_9: -2734467516356014143
+      Music: 1041732707596552686
+      Off: 375987280106078283
+      On: -2740079076018430113
+      Sfx: -5436103415129337081
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

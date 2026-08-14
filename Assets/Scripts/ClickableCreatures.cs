@@ -8,6 +8,11 @@ public class ClickableCreature : MonoBehaviour
 
     void OnMouseDown()
     {
+        if (UnityEngine.EventSystems.EventSystem.current != null && UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
         float mult = 1.0f;
         if (VillagerSatisfactionSystem.Instance != null)
         {
