@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: ee30141d2c46d4dd0b1894e48a7e12a3
+guid: c48c7c2f29fc544d491ea3a651141b6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5564248608999137188
-    second: energy_0
+      213: -6540234178842580451
+    second: IMG_9383_0
+  - first:
+      213: 5372947345601619452
+    second: IMG_9383_1
+  - first:
+      213: 1092435155963975171
+    second: IMG_9383_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +52,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -97,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: energy_0
+      name: IMG_9383_0
       rect:
         serializedVersion: 2
-        x: 251
-        y: 114
-        width: 513
-        height: 795
+        x: 0
+        y: 0
+        width: 1024
+        height: 1518
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5025aaee51d7c2b0800000000000000
-      internalID: -5564248608999137188
+      spriteID: d1a283e7aab6c35a0800000000000000
+      internalID: -6540234178842580451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_9383_1
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1509
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5667bc42b809a40800000000000000
+      internalID: 5372947345601619452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_9383_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 19
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30691638cfb192f00800000000000000
+      internalID: 1092435155963975171
       vertices: []
       indices: 
       edges: []
@@ -151,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      energy_0: -5564248608999137188
+      IMG_9383_0: -6540234178842580451
+      IMG_9383_1: 5372947345601619452
+      IMG_9383_2: 1092435155963975171
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

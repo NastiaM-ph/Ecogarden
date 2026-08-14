@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: ee30141d2c46d4dd0b1894e48a7e12a3
+guid: cd9ddcb8a10cb43b08729e57f48cf52a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5564248608999137188
-    second: energy_0
+      213: -5502119079572781499
+    second: 60DCE9E1-9461-402B-9EDA-AE8D6CC56E12_0
+  - first:
+      213: 8247157611643295336
+    second: 60DCE9E1-9461-402B-9EDA-AE8D6CC56E12_1
+  - first:
+      213: -5691275821118158641
+    second: 60DCE9E1-9461-402B-9EDA-AE8D6CC56E12_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -97,19 +103,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: energy_0
+      name: Leaf_0
       rect:
         serializedVersion: 2
-        x: 251
-        y: 114
-        width: 513
-        height: 795
+        x: 147
+        y: 380
+        width: 304
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d82194c2b964562a49e1c3a072f35c
+      internalID: 333848973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf_1
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 296
+        width: 423
+        height: 406
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5025aaee51d7c2b0800000000000000
-      internalID: -5564248608999137188
+      spriteID: 5ae6b61a442964738be72f68e1ff15de
+      internalID: 942547227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leaf_2
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 271
+        width: 465
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1011f283084984de59478b5fad9ecc8c
+      internalID: 1116943446
       vertices: []
       indices: 
       edges: []
@@ -151,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3b30086874f47498988a6608006766a1
     internalID: 0
     vertices: []
     indices: 
@@ -159,9 +196,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1536.0,"y":1024.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      energy_0: -5564248608999137188
+      Leaf_0: 333848973
+      Leaf_1: 942547227
+      Leaf_2: 1116943446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
