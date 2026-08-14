@@ -47,6 +47,9 @@ TagManager:
   - name: Buildings
     uniqueID: 3200833549
     locked: 0
+  - name: Particles
+    uniqueID: 1164362615
+    locked: 0
   - name: Villagers
     uniqueID: 1316911553
     locked: 0
