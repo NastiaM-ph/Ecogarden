@@ -6,6 +6,13 @@ public class TabPlaceholder : MonoBehaviour
 
     public void OnTabClicked()
     {
-        Debug.Log($"{tabName} — coming soon");
+        if (TabManager.Instance != null)
+        {
+            TabManager.Instance.SelectTabByName(tabName);
+        }
+        else
+        {
+            Debug.Log($"[TabPlaceholder] {tabName} clicked, but TabManager instance was not found.");
+        }
     }
 }
